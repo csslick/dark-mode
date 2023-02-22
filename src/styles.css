@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 768px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dark {
+  background: #000;
+  color: #fff;
+}
+
+.light {
+  background: #fff;
+  color: #000;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #999;
+}
+
+main {
+  padding: 20px;
+}
